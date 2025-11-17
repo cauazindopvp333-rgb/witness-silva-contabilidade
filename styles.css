@@ -1,4 +1,4 @@
- :root{
+:root{
   --blue-light:#4db8ff;
   --blue-main:#0b66c3;
   --blue-dark:#063d78;
@@ -47,6 +47,21 @@ header.hero{
   color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:26px;
   box-shadow:0 12px 26px rgba(3,45,85,0.18), inset 0 -6px 18px rgba(255,255,255,0.06);
   transform:perspective(300px) rotateX(6deg);
+}
+
+/* --- Foto das 3 pessoas ao lado do WS --- */
+.logo-block {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.people-illustration img {
+  width: 82px;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: var(--shadow-soft);
+  border: 2px solid #e6eef8;
 }
 
 /* Hero grid */
