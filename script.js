@@ -33,10 +33,11 @@ form.addEventListener("submit", function(e){
     `Nome: ${name}\nEmail: ${email}\nMensagem:\n${message}`
   );
 
-  window.location.href = `mailto:witene.carol14@gmail.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:whitneykarol14@gmail.com?subject=${subject}&body=${body}`;
 });
 
 // Botão 'Solicitar Orçamento'
 document.getElementById("btn-contact").addEventListener("click", ()=>{
   document.getElementById("contact-panel").scrollIntoView({behavior:"smooth"});
 });
+
