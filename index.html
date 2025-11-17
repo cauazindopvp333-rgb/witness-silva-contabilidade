@@ -1,83 +1,128 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Whitney Silva Contabilidade</title>
-    <meta name="description" content="Contabilidade moderna e profissional com atendimento humanizado e soluções completas.">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Whitney Silva Contabilidade</title>
+  <meta name="description" content="Contabilidade moderna para MEI, micro e pequenas empresas. Abertura de empresa, fiscal, folha e consultoria."/>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-<div class="wrap">
+  <div class="wrap">
 
-    <header class="reveal">
-        <div class="brand">
-            <div class="logo-3d">WS</div>
-            <div>
-                <h1>Whitney Silva Contabilidade</h1>
-                <p class="subtitle">Soluções Contábeis Modernas e Profissionais</p>
-            </div>
+    <header class="hero reveal">
+      <div class="brand">
+        <div class="logo-3d" aria-hidden="true">WS</div>
+        <div class="brand-text">
+          <h1>Whitney Silva Contabilidade</h1>
+          <p class="subtitle">Soluções contábeis modernas e humanizadas</p>
         </div>
 
-        <div class="hero-grid">
-            <div class="hero-text">
-                <h2 class="hero-title">Contabilidade eficiente, segura e feita com excelência.</h2>
-                <p class="hero-desc">Atendimento especializado para MEI, micro e pequenas empresas. Abertura de empresa, fiscal, consultoria e folha.</p>
+        <nav class="top-nav">
+          <a class="btn btn-ghost" href="#servicos">Serviços</a>
+          <a class="btn btn-ghost" href="#sobre">Sobre</a>
+          <a class="btn btn-primary" href="https://wa.me/553199925540" target="_blank" rel="noopener">WhatsApp</a>
+        </nav>
+      </div>
 
-                <div class="cta-row">
-                    <a href="https://wa.me/553199925540" class="btn btn-primary">Chamar no WhatsApp</a>
-                    <button class="btn btn-ghost" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
-                        Enviar mensagem
-                    </button>
-                </div>
-            </div>
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h2 class="hero-title">Contabilidade profissional para você crescer com segurança</h2>
+          <p class="hero-desc">Atendimento para MEI, micro e pequenas empresas — abertura, fiscal, folha, impostos e consultoria estratégica.</p>
 
-            <img src="office-modern.png" class="hero-img" alt="Contabilidade Moderna">
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://wa.me/553199925540" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+            <button class="btn btn-ghost" onclick="document.getElementById('contato').scrollIntoView({behavior:'smooth'})">Solicitar Orçamento</button>
+          </div>
         </div>
+
+        <div class="hero-aside">
+          <div class="contact-panel">
+            <strong>Atendimento</strong>
+            <p class="muted">Segunda a sexta • 08:00 — 18:00</p>
+            <p><strong>Telefone:</strong><br/>(31) 9 9925-540</p>
+            <p><strong>E-mail:</strong><br/><a href="mailto:Whitneykarol14@gmail.com">Whitneykarol14@gmail.com</a></p>
+            <div style="margin-top:10px">
+              <a class="btn btn-primary" href="https://wa.me/553199925540" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
-    <section class="services reveal">
-        <div class="service">
-            <h3>Abertura de Empresa</h3>
-            <p>Processo completo feito com agilidade e acompanhamento contínuo.</p>
+    <main>
+      <section id="servicos" class="services reveal">
+        <h2>Nossos Serviços</h2>
+        <div class="service-grid">
+          <article class="service">
+            <h3>Abertura de Empresas</h3>
+            <p>Processo digital completo e acompanhamento.</p>
+          </article>
+
+          <article class="service">
+            <h3>Fiscal & Impostos</h3>
+            <p>Apuração, obrigações e planejamento tributário.</p>
+          </article>
+
+          <article class="service">
+            <h3>Folha de Pagamento</h3>
+            <p>Gestão de pessoal, encargos e integração com eSocial.</p>
+          </article>
+
+          <article class="service">
+            <h3>Consultoria Estratégica</h3>
+            <p>Relatórios e orientação para crescimento sustentável.</p>
+          </article>
         </div>
+      </section>
 
-        <div class="service">
-            <h3>Consultoria Empresarial</h3>
-            <p>Orientação estratégica para aumentar resultados e reduzir custos.</p>
+      <section id="sobre" class="about reveal">
+        <h2>Sobre nós</h2>
+        <p class="muted">Unimos tecnologia e atendimento humano para oferecer serviços contábeis confiáveis, rápidos e transparentes.</p>
+        <div class="about-grid">
+          <div class="about-card">
+            <h4>Missão</h4>
+            <p class="muted">Proporcionar segurança fiscal e financeira para empreendedores.</p>
+          </div>
+          <div class="about-card">
+            <h4>Valores</h4>
+            <p class="muted">Transparência, agilidade e parceria.</p>
+          </div>
         </div>
+      </section>
 
-        <div class="service">
-            <h3>Fiscal & Tributário</h3>
-            <p>Apuração correta, regularizações e planejamento tributário.</p>
-        </div>
+      <section id="contato" class="contact-panel reveal">
+        <h2>Fale conosco</h2>
+        <p class="muted">Preencha seus dados e entraremos em contato em até 1 dia útil.</p>
 
-        <div class="service">
-            <h3>Folha & DP</h3>
-            <p>Admissões, férias, encargos, rescisões e suporte completo.</p>
-        </div>
-    </section>
+        <form id="contactForm" action="mailto:Whitneykarol14@gmail.com" method="post" enctype="text/plain">
+          <label class="sr-only" for="nome">Nome</label>
+          <input id="nome" name="Nome" type="text" placeholder="Seu nome" required>
 
-    <section id="contact" class="contact-panel reveal">
-        <h2>Entre em Contato</h2>
+          <label class="sr-only" for="email">E-mail</label>
+          <input id="email" name="Email" type="email" placeholder="Seu e-mail" required>
 
-        <p><strong>E-mail:</strong> whitneykarol14@gmail.com</p>
-        <p><strong>Telefone:</strong> (31) 99925-540</p>
+          <label class="sr-only" for="empresa">Empresa</label>
+          <input id="empresa" name="Empresa" type="text" placeholder="Empresa / Observação">
 
-        <form>
-            <input type="text" placeholder="Seu nome" required>
-            <input type="email" placeholder="Seu e-mail" required>
-            <textarea placeholder="Mensagem" required></textarea>
-            <button class="btn btn-primary">Enviar</button>
+          <label class="sr-only" for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="Mensagem" placeholder="Mensagem" required></textarea>
+
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            <a class="btn btn-ghost" href="https://wa.me/553199925540" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          </div>
         </form>
-    </section>
+      </section>
+    </main>
 
-    <footer>
-        © 2025 Whitney Silva Contabilidade — Todos os direitos reservados.
+    <footer class="reveal">
+      <div class="footer-inner">
+        <small>© <span id="ano"></span> Whitney Silva Contabilidade — Todos os direitos reservados.</small>
+      </div>
     </footer>
-</div>
+  </div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
